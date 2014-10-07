@@ -3,7 +3,7 @@
 include("AhoCorasick.class.php");
 
 class ACAppClass{
-	private $showtimeFlag;// 是否显示运行时间，false：不显示；true：显示，默认为false
+	private $showtimeFlag;// 是否显示运行时间，false：不显示；true：显示，默认为true
 	/**
 	 * @function 构造函数
 	 * @param
